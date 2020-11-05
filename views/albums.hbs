@@ -1,0 +1,14 @@
+<div class="col-md-4">
+<div class="card">
+{{#each albums}}
+<h1>
+{{name}}  
+</h1>
+<img
+src="{{images.[0].url}}">
+</img>
+<a href="/tracks/{{id}}">
+View Tracks</a>
+{{/each}}
+</div>
+</div>
